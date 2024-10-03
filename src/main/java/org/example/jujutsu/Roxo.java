@@ -21,6 +21,11 @@ public class Roxo extends Vermelho implements Azul{
     }
 
     @Override
+    public void usarAtaqueVermelho(Sorcerer oponente) {
+        super.usarAtaqueVermelho(oponente);
+    }
+
+    @Override
     public void usarAtaqueAzul(Sorcerer oponete) {
         System.out.println("Ataque Azul causando 300 de dano!");
         oponete.receberDano(300);
